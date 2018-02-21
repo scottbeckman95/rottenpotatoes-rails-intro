@@ -57,4 +57,7 @@ Rottenpotatoes::Application.configure do
 
   # Send deprecation notices to registered listeners
   config.active_support.deprecation = :notify
+  
+  #This must be here according to stackoverflow
+  config.assests.compile = true
 end
